@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px:
+    background-color: rgba(244, 246, 252, 1);
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+       }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 122px;
+    
+             }
+#circle-logo {
+    cursor:normal;
+    width: 60,53px;
+    height: 18,46px;
+    justify-items: left;
+    margin-left: 170px;
+    margin-top: 86,91px;
+    top: 70px;
+                }
+#top-navigation {
+    list-style: none;
+    justify-content: center;
+    top: 70px;
+                   }
+#top-navigation li {
+    display: inline-block;
+   padding: 0px 20px;
+    
+                     }
+#top-navigation li a {
+    transition:all 0.4s ease 0s;
+    color: #6B708D;
+    font-size: 17px;
+    line-height: 22.1px;
+    font-weight: 500;
+    font-style: normal;
+                           }
+#top-navigation li a:hover {
+    color: #072AC8;
+    font:bolder;      
+             }
+#contact-us  {
+    padding:15px, 36px, 15px, 36px;
+    Width: 150px;
+    Height: 52px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    font-style: normal;
+    background-color: #072AC8;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition:all 0.4s ease 0s;
+    top: 70px;
+                  }
+#contact-us:hover {
+    background-color: rgba(7, 42, 200, 0.85);
+           }
+.hero-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 100px;
+    width: 1440px;
+    height: 650px;
+         }
+.empower {
+    position: relative;
+    justify-items: left;
+    top: 109px;
+    width: 530px;
+    height: 422px;
+       }
+    h1 {
+        font-size: 60px;
+        weight: 700px;
+        color: rgba(41, 46, 71, 1);
+        line-height: 70,31px;
+      }
+
+    p {
+        color: rgba(107, 112, 141, 1);
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 30px;
+                 }
+
+#main-arguments1 {
+width: 530px;
+height: 210px;
+left: 170px;
+margin-bottom: 30px;
+                 }
+#main-arguments2 {
+width: 435px;
+height: 90px;
+top: 349px;
+left: 170px;
+margin-bottom: 40px;
+              }
+#get-in-touch {
+    padding:15px, 37px, 15px, 37px;
+    Width: 150px;
+    Height: 52px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    font-style: normal;
+    background-color: #072AC8;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition:all 0.4s ease 0s;
+    top: 479px;
+    left: 170px;
+                      }
+#get-in-touch:hover {
+    background-color: rgba(7, 42, 200, 0.85);
+     }
+#see {
+color: rgba(107, 112, 141, 1);
+padding-left: 40px;
+           }
+#see:hover {
+    color: #072AC8;
+    font:bolder;
+       }
+.model {
+ width: 570px;
+ height: 650px;
+ left: 700px;
+ top:0;
+            }
+#hero-model {
+    position: relative;
+    z-index: 1;
+             }
+#main-card-1 {
+position: absolute; 
+z-index: 2; 
+left:800px;
+top: 170px;
+width: 390px;
+height: 416px;
+             }
+#main-card-2 {
+position: absolute; 
+z-index: 3;
+top: 650px;
+left: 1180px;
+width: 390px;
+height: 393px;
+}
+.client-logos {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 1440px;
+    height: 96px;
+    margin-left: 80px;
+    margin-right: 170px;
+    margin-top: 130px;
+        }
+#airbnb {
+    filter: grayscale(100%);
+    width: 104px;
+    height: 32px;
+        }
+#Google {
+    filter: grayscale(100%);
+    width: 96px;
+    height: 32px;   
+}
+#Microsoft {
+    filter: grayscale(100%); 
+    width: 123px;
+    height: 26px;
+}
+#Fedex {
+    filter: grayscale(100%);
+    width: 101px;
+    height: 30px; 
+}
+#Amazon {
+    filter: grayscale(100%);
+    -webkit-text-size-adjust: 104px;
+    height: 32px;
+}
+
+
+.recent-projects {
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+align-items: center;
+margin-top: 200px;
+    }
+.opinion-container {
+    background-image: url("Assets\orbit.png");
+    background-repeat: no-repeat;
+    background-size: 622px 1320px;
+}
