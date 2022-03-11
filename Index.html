@@ -13,7 +13,7 @@
     <!-- HEADER -->
 
     <header id="main-navigator">
-        <img id="circle-logo" src="Assets/circle.svg" alt="Circle logo">
+        <img id="circle-logo" src="assets/circle.svg" alt="Circle logo">
         <nav>
                 <ul id="top-navigation">
                 <li><a href="#">Home</a></li>
@@ -26,86 +26,150 @@
 
     <!-- MAIN - SECTION ARGUMENTS -->
 
-    <main class="hero-main">
-        <section class="empower">
-            <div id="main-arguments1">
-                <h1><strong>Empower Your
-                Business With
-                Stunning Design!</strong></h1>  
-            </div>
-            <div id="main-arguments2">
-                <p>Circle is a digital design and development studio.
-                <p>We design and develop astonishing websites</p> 
-                <p>and mobile apps.</p>
-            </div>
-                <a href="#"><button id="get-in-touch">Get in touch</button></a>
+    <main>
+         <!-- MAIN - SECTION HERO -->
+        <section class="hero-main">
+           
+            <div class="leftSide">
+                <h1 id="main-arguments1">Empower Your Business With Stunning Design!</h1>
+            <div>
+                <p class="heroP">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps. </p>
+                    <a href="#"><button id="get-in-touch">Get in touch</button></a>
                 <a id="see" href="#">See our work</a>
-            
+                </div>  
+            </div>
+            <div class="rightSide">
+                <img class="card1" src="assets\card-1.png" alt="Choose your Card">
+                <img class="heroImg" src="assets\hero-image.png" alt="Hero model">  
+                <img class="card2" src="assets\card-2.png" alt="Project Accepted">
+            </div>
         </section>
-
-    <!-- MAIN - SECTION PIC & CARDS-->
-
-            <section class="model">
-                <img id="hero-model" src="Assets\hero-image.png" alt="Hero model" width="570px" height="650px">  
-                <img id="main-card-1" src="Assets\card-1.png" alt="Choose your Card" width="190px" height="216px">
-                <img id="main-card-2" src="Assets\card-2.png" alt="Project Accepted" width="190px" height="193px">
-            </section>
-        </main>
-
-    <!-- MAIN - SECTION CLIENT LOGOS-->
-
-        <div class="client-logos">
-                <img id="airbnb" src="Assets/airbnb-logo.svg" alt="airbnb logo" weight="102,67px" height="32,02px">
-                <img id="Google" src="Assets\google-logo.svg" alt="Google logo" weight="102,67px" height="32,02px">
-                <img id="Microsoft" src="Assets\microsoft-logo.svg" alt="Microsoft logo" weight="102,67px" height="32,02px">
-                <img id="Fedex" src="Assets\fedex-logo.svg" alt="Fedex logo" weight="102,67px" height="32,02px">
-                <img id="Amazon" src="Assets\amazon-logo.svg" alt="Amazon logo" weight="102,67px" height="32,02px">                
-        </div>
+        <!-- WEB LOGOS SECTIONS -->
+        <section class="webLogoSection"> 
+            <div class="web-logos">
+                <img class="airbnb" src="assets\airbnb-logo.svg" alt="airbnb">
+                <img src="assets\google-logo.svg" alt="Google">
+                <img src="assets\microsoft-logo.svg" alt="Microsoft">
+                <img class="fedex" src="assets\fedex-logo.svg" alt="FedEx">
+                <img src="assets\amazon-logo.svg" alt="amazon">
+            </div>
+        </section>
+         <!-- MAIN - RECENT PROJECTS CARDS -->
+       
+        <section class="serviceSection">
+            <h1 class="serviceTitle">Recent Projects</h1>
+            <div class="cardsContainer">
+                <div class="card">
+                    <div class="cardImg">
+                        <img class="cardImgContent" src="assets/1.jpg" alt="Fondo 1">
+                    </div>
+                    <div class="cardContent">
+                        <h3>Simplify</h3>
+                        <p>UI Design & App Development</p>
+                        <a class="cardButton" href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img class="cardImgContent" src="assets/2.jpg" alt="Fondo 2">
+                    </div>
+                    <div class="cardContent">
+                        <h3>Dashcoin</h3>
+                        <p>Web Development</p>
+                        <a class="cardButton" href="">Learn more</a>
+                    </div>  
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img class="cardImgContent" src="assets/3.jpg" alt="Fondo 3">
+                    </div>
+                    <div class="cardContent">
+                        <h3>Vectorify</h3>
+                        <p>User Experience Design</p>
+                        <a class="cardButton" href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- OPINION CONTAINER --> 
     
-
-    <!-- SECTION - RECENT PROJECTS CARDS -->
-
-    <section class="recent-projects">
-        <div id="card-1">
-        <img src="Assets\1.jpg" alt="Simplify card" height="240px" weight="340px"></div>
-        <div class="container1">
-          <p><b>Simplify</b></p>
-          <p>UI Design & App development</p>
-          <a ref="Assets\2.jpg">Learn more</a> 
-        </div>        
-        <div class="card-2">
-            <img src="Assets\2.jpg" alt="Dashcoin" height="240px" weight="340px"></div>
-            <div class="container2">
-              <p><b>Dashcoin</b></p>
-              <p>Web Development</p>
-              <a ref="">Learn more</a>
-        </div>                
-        <div class="card-3">
-            <img src="Assets\3.jpg" alt="Vectorify" height="240px" weight="340px"></div>
-        <div class="container3">
-          <p><b>Vectorify</b></p>
-          <p>User Experience Design</p>
-          <a ref="">Learn more</a>
-        </div>                    
+    <section class="opinionSection">
+       <div class="opinionSectionContent">
+           <h1 class="testimonialTitle">Hear What Our Clients Have To Say</h1>
+           <p class="testimonialSubtitle">"Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
+           <div class="kristinIds">
+            <div class="kristinImg"></div>
+            <div class="kristinContent">
+                <p class="name">Kristin Watson</p>
+                <P class="site">Booking.com</P></div>
+        </div>
+       </div>
+        <img class="memoji topLeft" src="assets\memoji-1.png" alt="">
+        <img class="memoji topRight" src="assets\memoji-4.png" alt="">
+        <img class="memoji bottomLeft" src="assets\memoji-3.png" alt="">
+        <img class="memoji bottomRight" src="assets\memoji-2.png" alt="">
+        
     </section>
-
-    <!-- OPINION CONTAINER -->
-
-<div class="opinion-container">
-<h3>Hear What Our Clients Have to Say</h3>
-    <p>"Circle helped us through every stage of our startup.
-        We really enjoyed working with you."</p>
-<img id="client-pic" src="Assets\profile.png" alt="Satisfied client pic">
-<p>Kristin Watson</p>
-<p>Booking.com</p>
-<img id="memoji-1" src="Assets\memoji-1.png" alt="memoji-1">
-<img id="memoji-2" src="Assets\memoji-2.png" alt="memoji-2">
-<img id="memoji-3" src="Assets\memoji-3.png" alt="memoji-3">
-<img id="memoji-4" src="Assets\memoji-4.png" alt="memoji-4">
-</div>
+    </main>
 
     <!-- OUR SERVICES CARDS -->
 
-<div>db.json</div>    
+    <section class="services">
+        <h1 class="servicesTitle">Our Services</h1>
+        <div class="serviceCards">  
+                <div class="serviceCardTxt">
+                <div class="serviceCardImg"></div>     
+                <h3> User Interface Design</h3>
+                <p class="serviceCardP">Circle provides you with a stunning user interface design that is acacesible to everyone.</p>
+                <a class="butTxt" href="#">Learn More</a>
+            </div>
+        
+  
+            <div class="serviceCardTxt">
+            <div class="serviceCardImg2"></div>     
+            <h3> User Interface Design</h3>
+            <p class="serviceCardP">Circle provides you with a stunning user interface design that is acacesible to everyone.</p>
+            <a class="butTxt" href="#">Learn More</a>
+        </div>
+    
+                <div class="serviceCardTxt">
+                <div class="serviceCardImg3"></div>     
+                <h3> User Experience Design</h3>
+                <p class="serviceCardP">Circle always focuses on delivering the best user experience to your customers.</p>
+                <a class="butTxt" href="#">Learn More</a>
+            </div>
+            
+            </div>
+    </div>
+    </section>
+  
+         <!-- QUESTIONS -->
+
+         <SECTION class="questions">
+             <div class="questionsContainer">
+             <h1 class="questionsh1">Do you have any questions?</h1>
+                <div class="questionsP"><p>Let us help you!</p></div>
+                <div class="questionsform">
+               <form class="questionsFormRectang"> 
+                     <input label="text" id="txt" placeholder="Enter your email">
+                    <img class="envelopImg" src="assets/mail.svg" alt="envelop" height="25px" width="25px"></input></form>
+                    <button class="questionsBut">Suscribe</button></div>
+            </div>
+         </SECTION>
 </body>
+<footer>
+<div class="footerContainer">
+    <div class="logoInfo">
+        <img src="assets/circle.svg" alt="Logo">
+        <p class="logoInfoTxt">2972 Westheimer Rd. Santa Ana. Illinois 85486</p></div>
+    <div class="footLinks">
+        <a href="#">Team</a>
+        <a href="#">Sevices</a>
+        <a href="#">About Us</a>
+        <a href="#">Press</a>
+        <a href="#">Projects</a>
+        <a href="#">Privacy Policy</a></div>
+</div>
+
+</footer>
 </html>
